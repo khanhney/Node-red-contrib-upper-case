@@ -1,0 +1,12 @@
+{
+  "name": "red-contrib-uppercase-khanhney",
+  "version": "1.0.0",
+  "description": "",
+  "node-red": {
+    "nodes": {
+      "uppercase1": "uppercase1.js"
+    }
+  },
+  "author": "KhanhNey",
+  "license": "ISC"
+}

@@ -1,0 +1,29 @@
+<script type="text/javascript">
+	RED.nodes.registerType("uppercase1", {
+		category: "KhanhNey",
+		color: "#f1f1f1",
+
+		defaults: {
+			name: {value: ""}
+		},
+
+		inputs: 1,
+		outputs: 1,
+
+		label: function(){
+			return this.name || "uppercase";
+		}
+	});
+</script>
+
+
+<script type="text/x-red" data-template-name="uppercase1">
+	<div class="form-row">
+		<label for="node-input-name">Name</label>
+		<input type="text" id="node-input-name" placeholder="Name is ..">
+	</div>
+</script>
+
+<script type="text/x-red" data-help-name="uppercase1">
+	<h1>Demo by KhanhNey</h1>
+</script>
